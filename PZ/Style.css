@@ -83,7 +83,31 @@ body
 	letter-spacing: 2px;
 }
 
+.smalltitle
+{
+	font-size: 25px;
+	font-weight: 700;
+	letter-spacing: 1,5px;
+}
 
+.podtytul
+{
+    text-indent: 10%;
+	font-size: 15px;
+	font-weight: 600;
+	letter-spacing: 1,5px;
+    text-indent: 20px;
+}
+.podtytul:hover
+{
+   color: grey;
+   cursor: pointer;
+}
+
+.podtytul:visited
+{
+   font-weight: 500;
+}
 
 #sidebar
 {

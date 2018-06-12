@@ -20,6 +20,15 @@
 	<link rel="stylesheet" href="Style.css" type="text/css" />
 	<link rel="stylesheet" href="css/fontello.css" type="text/css" />
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    
+    <script type="text/javascript">
+       function ne(o){
+          if(document.getElementById(o).style.display=='') document.getElementById(o).style.display = 'none';
+          else document.getElementById(o).style.display='';
+       }
+    </script>
+    
+    
 	
 </head>
 
@@ -59,30 +68,119 @@
 			
 			<div class="dottedline"></div>
 			
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia mollis odio eu bibendum. Praesent non hendrerit risus. Nulla id semper sem. Mauris risus mauris, ultrices sed ullamcorper sed, vulputate vel nisi. Aliquam augue ante, mattis in pulvinar vitae, ultrices nec leo. Nulla ultricies augue enim, sit amet semper tellus vulputate sit amet. Maecenas tincidunt, ex eu viverra scelerisque, quam lectus auctor nunc, at pretium nibh lacus in ligula. Cras condimentum felis ac aliquet tristique. Sed elementum eu nulla vel rutrum. Cras feugiat nulla non congue malesuada.
-			
-			<br /><br />
-			Cras et nulla vehicula, efficitur enim non, fermentum tortor. Curabitur id elementum leo. Sed eget turpis accumsan dolor mollis imperdiet. Praesent pellentesque laoreet lectus, at commodo magna varius vitae. Aliquam erat volutpat. Curabitur commodo, tortor laoreet sagittis cursus, nulla enim laoreet libero, et egestas risus ante vel orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc quis posuere massa, sed sollicitudin lorem. Mauris lacinia, massa efficitur malesuada luctus, arcu ex mattis erat, a venenatis magna risus nec neque. Nulla vulputate nisl urna, quis egestas orci suscipit tristique. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras auctor nec elit at ultricies. Morbi aliquam pharetra diam, vitae porta felis. Pellentesque vel arcu tincidunt, luctus justo quis, ultrices erat. Vivamus efficitur leo vitae dui molestie, eu varius sapien iaculis. In quis pharetra mauris.
-			
-			<br /><br />			
-			Nam ullamcorper turpis non tristique sollicitudin. Etiam id magna lacus. Pellentesque vestibulum ex eget quam consectetur, sit amet luctus erat feugiat. Sed gravida tellus tempus consequat rhoncus. Phasellus lobortis magna et risus pharetra, facilisis blandit sapien tristique. Vivamus aliquam interdum arcu, eget facilisis ante gravida ut. Proin nec nisl ut lacus finibus sagittis id non nibh. Donec volutpat pretium libero. Sed fermentum vel ante vitae mattis. Curabitur porttitor turpis at scelerisque auctor. Sed vitae iaculis risus, ut iaculis nibh.
+            <span class="smalltitle">Nogi</span> <br /><br />
+            
+                <span class="podtytul" onclick="ne('o1')">Przysiad ze sztangą na karku</span><br /><br /> 
+                        <div id="o1" style="display:none;">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/artFx1gn52s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> <br /><br /> 
+                        </div>
+            
+                <span class="podtytul" onclick="ne('o11')">Wykroki</span><br /><br /> 
+                        <div id="o11" style="display:none;">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/fqymGym7YL0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> <br /><br /> 
+                        </div>
+            
+                <span class="podtytul" onclick="ne('o12')">Wspięcia na palce</span><br /><br /> 
+                        <div id="o12" style="display:none;">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/mbyTbDJBsR8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> <br /><br /> 
+                        </div>        
+                <div class="dottedline"></div>
+            
+            <span class="smalltitle">Plecy</span> <br /><br />
+                <span class="podtytul" onclick="ne('o13')">Martwy ciąg</span><br /><br /> 
+                            <div id="o13" style="display:none;">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/Vzn3hCHUkD0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> <br /><br /> 
+                            </div>
+                <span class="podtytul" onclick="ne('o14')">Wiosłowanie sztangą w opadzie</span><br /><br /> 
+                            <div id="o14" style="display:none;">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/PaqvesLOcpA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> <br /><br /> 
+                            </div>
+                <span class="podtytul" onclick="ne('o15')">Ściąganie drążka na wyciągu</span><br /><br /> 
+                            <div id="o15" style="display:none;">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/-2am6tU5HCs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> <br /><br /> 
+                            </div>
+
+                <div class="dottedline"></div>
+            <span class="smalltitle">Klatka piersiowa</span> <br /><br />
+            
+                <span class="podtytul" onclick="ne('o16')">Wyciskanie na ławce płaskej</span><br /><br /> 
+                            <div id="o16" style="display:none;">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/9n4lgCrxr0I" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> <br /><br /> 
+                            </div>
+                <span class="podtytul" onclick="ne('o17')">Wyciskanie sztangielek na ławce skośnej</span><br /><br /> 
+                            <div id="o17" style="display:none;">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/0gPt--vcoW4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> <br /><br /> 
+                            </div>
+
+                <span class="podtytul" onclick="ne('o18')">Krzyżowanie linek wyciągu górnego</span><br /><br /> 
+                            <div id="o18" style="display:none;">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/LHO_eNwI9Bc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> <br /><br /> 
+                            </div>
+
+
+                <div class="dottedline"></div>
+            <span class="smalltitle">Brzuch</span> <br /><br />
+
+                <span class="podtytul" onclick="ne('o19')">Allahy</span><br /><br /> 
+                            <div id="o19" style="display:none;">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/AAQRVXSHlbs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> <br /><br /> 
+                            </div>
+                <span class="podtytul" onclick="ne('o110')">Brzuszki</span><br /><br /> 
+                            <div id="o110" style="display:none;">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/ewz8Svo6n4s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> <br /><br /> 
+                            </div>
+
+                <div class="dottedline"></div>
+            
+            <span class="smalltitle">Barki</span> <br /><br />
+            
+                 <span class="podtytul" onclick="ne('o111')">Wyciskanie żołnierskie</span><br /><br /> 
+                            <div id="o111" style="display:none;">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/dKbqyMER1zA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> <br /><br /> 
+                            </div>
+
+                 <span class="podtytul" onclick="ne('o112')">Arnoldki</span><br /><br /> 
+                            <div id="o112" style="display:none;">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/Q1tpgtNxgeQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> <br /><br /> 
+                            </div>
+
+                <span class="podtytul" onclick="ne('o113')">Odwodzenie ramion w bok w opadzie tułowia siedząc</span><br /><br /> 
+                            <div id="o113" style="display:none;">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/NBLs0ksPczQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> <br /><br /> 
+                            </div>
+            
+
+                 <div class="dottedline"></div>
+            
+            <span class="smalltitle">Ramiona</span> <br /><br />
+            
+            
+                <span class="podtytul" onclick="ne('o114')">Uginanie przedramion ze sztangą prostą, podchwytem, stojąc</span><br /><br /> 
+                            <div id="o114" style="display:none;">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/415ZedAmmGg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> <br /><br /> 
+                            </div>
+                <span class="podtytul" onclick="ne('o115')">Prostowanie ramion na wyciągu górnym nachwytem</span><br /><br /> 
+                            <div id="o115" style="display:none;">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/qM10SRGkZPs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> <br /><br /> 
+                            </div>
+                <span class="podtytul" onclick="ne('o116')">Uginanie przedramion ze sztangielkami, stojąc</span><br /><br /> 
+                            <div id="o116" style="display:none;">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/HTcXehjywD0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> <br /><br /> 
+                            </div>
+                <span class="podtytul" onclick="ne('o117')">Wyciskanie francuskie sztangielki oburącz, siedząc</span><br /><br /> 
+                            <div id="o117" style="display:none;">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/lRJz0tqLlpk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> <br /><br /> 
+                            </div>
+            
+                <div class="dottedline"></div>
+
+            
 		</div>	
-		
+
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 	<div id="footer">
 			Forma do Lata - najlepsza pomoc do stworzenia upragninej sylwetki! &copy; Wszelkie prawa zastrzeżone
 		</div>
